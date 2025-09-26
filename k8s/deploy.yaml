@@ -21,7 +21,7 @@ spec:
       serviceAccountName: default
       containers:
       - name: myfirst-api-server
-        image: amdp-registry.skala-ai.com/skala25a/sk018-myfirst-api-server:1.0.0-e6fad01739b0
+        image: amdp-registry.skala-ai.com/skala25a/sk018-myfirst-api-server:1.0.0-be2c71d80d0f
         imagePullPolicy: Always
         env:
         - name: USER_NAME
